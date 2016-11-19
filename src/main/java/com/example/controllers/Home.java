@@ -19,7 +19,7 @@ public class Home {
     public String index(Post post, Model model) {
         model.addAttribute("name", post.getName());
         model.addAttribute("animal_type", post.getAnimal_type());
-        return "index";
+        return "index1";
     }
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
